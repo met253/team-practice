@@ -1,16 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
+    <title>Programming Job Hiring Website</title>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/index.css">
-
-</head>
-<body>
-    <div class="gradient">
-    </div>
-    
-</body>
+    <link rel="stylesheet" href="../css/index.css" type="text/css">
+  </head>
+  <body>
+    <header>
+        <div class="header-gradient">
+          <h1>Job hiring website</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>      
+    <main>
+      <section id="job-listings">
+        <h2>Job Listings</h2>
+        <ul>
+          <li>
+            <h3>Web Developer</h3>
+            <p>Company Name: XYZ Inc.</p>
+            <p>Location: San Francisco, CA</p>
+            <p>Description: We're looking for a skilled web developer to join our team and help us build cutting-edge web applications.</p>
+            <a href="#">Apply Now</a>
+          </li>
+          <li>
+            <h3>Mobile Developer</h3>
+            <p>Company Name: ABC Corp.</p>
+            <p>Location: New York, NY</p>
+            <p>Description: We're seeking an experienced mobile developer to help us create innovative mobile apps for our clients.</p>
+            <a href="#">Apply Now</a>
+          </li>
+          <li>
+            <h3>Data Scientist</h3>
+            <p>Company Name: 123 LLC</p>
+            <p>Location: Seattle, WA</p>
+            <p>Description: We're seeking a talented data scientist to help us analyze and make sense of complex data sets.</p>
+            <a href="#">Apply Now</a>
+          </li>
+        </ul>
+      </section>
+      <section id="search-jobs">
+        <h2>Search Jobs</h2>
+        <form>
+          <label for="keywords">Keywords:</label>
+          <input type="text" id="keywords" name="keywords">
+          <label for="location">Location:</label>
+          <input type="text" id="location" name="location">
+          <input type="submit" value="Search">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Programming Job Hiring Website</p>
+    </footer>
+  </body>
 </html>
